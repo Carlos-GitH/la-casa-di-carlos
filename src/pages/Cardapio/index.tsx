@@ -18,7 +18,7 @@ export default function Cardapio () {
                 <div className={styles.divLogo}>
                     <div className={styles.logoContainer}>
                         <img className={styles.logo} src={logo} alt="logo"/>
-                        <h2 className={styles.nome}>La Casa Di Carlos</h2>
+                        <h2 className={styles.nome}>la-casa-di-carlos</h2>
                     </div>
                 </div>
             </header>
