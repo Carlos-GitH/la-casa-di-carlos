@@ -14,64 +14,7 @@
     }
   }
 
-.logoContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.divLogo {
-    display: flex;
-    background-color: beige;
-    background-color:rgba(255, 255, 255, 0.575); /* fallback for IE 8 and below */
-    background-color:rgba(255, 255, 255, 0.5);
-    align-items: center;
-    justify-content: center;
-}
-
-.logo {
-    width: 85px;
-    height: 85px;
-    display: flex;
-    opacity: 1;
-    justify-content: center;
-}
-
-.nome {
-    display: flex;
-    font-size: 3rem;
-    min-width: 300px;
-    width: 40%;
-    justify-content: center;
-
-}
-
-.header {
-    background-image: url('../../assets/cardapio/header.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    height: 300px;
-    justify-content: center;
-}
-
 .cardapio {
-  padding: 50px $padding-horizontal;
-  @media (max-width: $desktop_xsm) {
-    padding: 50px $padding-horizontal-mobile;
-  }
-  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
-    padding: 50px $padding-horizontal-sm;
-  }
-  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
-    padding: 50px $padding-horizontal-md;
-  }
-  &__titulo {
-    color: $dark;
-    font-size: 3rem;
-    margin-bottom: 30px;
-  }
   &__filtros {
     align-items: center;
     display: flex;

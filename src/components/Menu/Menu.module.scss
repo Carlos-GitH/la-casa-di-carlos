@@ -1,0 +1,77 @@
+@import "../../styles/variaveis";
+@import "../../styles/breakpoints";
+
+.menu {
+    padding: 5px $padding-horizontal;
+    @media (max-width: $desktop_xsm) {
+      padding: 20px $padding-horizontal-mobile;
+    }
+    @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+      padding: 20px $padding-horizontal-sm;
+    }
+    @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+      padding: 20px $padding-horizontal-md;
+    }
+    &__list {
+      align-items: center;
+      display: flex;
+    }
+    &__link {
+      list-style-type: none;
+      padding: 0 20px;
+      a {
+        color: $dark;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: .2s ease;
+        &:hover {
+          color: $dark-grey;
+        }
+      }
+    }
+  }
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divLogo {
+    display: flex;
+    background-color: beige;
+    background-color:rgba(255, 255, 255, 0.575); /* fallback for IE 8 and below */
+    background-color:rgba(255, 255, 255, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    opacity: 1;
+    justify-content: center;
+}
+
+.nome {
+    display: flex;
+    font-size: 3rem;
+    min-width: 300px;
+    width: 40%;
+    justify-content: center;
+
+}
+
+.header {
+    background-image: url('../../assets/cardapio/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+}
+
