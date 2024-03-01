@@ -15,7 +15,7 @@ export default function Inicio() {
     };
 
     return (
-        <section>
+        <section className={stylesTema.container}>
             <h3 className={stylesTema.titulo}>
                 Recomendações da cozinha
             </h3>

@@ -7,7 +7,7 @@ import massa2 from '../../assets/sobre/massa2.png';
 export default function Sobre() {
     const imagens = [massa1, massa2];
     return (
-        <section>
+        <section className={stylesTema.container}>
             <h3 className={stylesTema.titulo}>Sobre</h3>
             <div className={styles.sobreNos}>
                 <img src={casa} alt="La Casa Di Carlos" />

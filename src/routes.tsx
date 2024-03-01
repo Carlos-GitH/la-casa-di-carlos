@@ -9,7 +9,6 @@ import Prato from './pages/Prato';
 
 export default function AppRouter() {
     return (
-        <main className='container'>
             <Router>
             <Menu />
                 <Routes>
@@ -23,6 +22,5 @@ export default function AppRouter() {
                 </Routes>
                 <Footer />
             </Router>
-        </main>
     );
 }
